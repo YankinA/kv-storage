@@ -18,3 +18,23 @@ go run main.go
   - `SET key value`
   - `GET key`
   - `DEL key`
+
+
+## Installation
+
+To run this project, install Go version 1.21 or later.
+
+### Building the Binary
+
+#### For Linux:
+
+Run the following command to build the binary for Linux:
+
+```bash
+GOOS=linux GOARCH=amd64 go build -o key-value-store-linux
+```
+
+#### For macOS:
+```bash
+GOOS=darwin GOARCH=amd64 go build -o key-value-store-macos
+```
